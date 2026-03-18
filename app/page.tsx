@@ -127,13 +127,13 @@ export default function Portfolio() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground to-muted-foreground/800 bg-clip-text text-transparent">
-              David Lee
+              Michael Kim
             </h1>
             <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
-              Full-Stack Developer
+              Senior Software Engineer
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-8 font-light">
-              AI & SaaS Specialist | Building the Future of Web & Mobile
+              Full Stack Web & Mobile | AI & SaaS Specialist |  Backend (Ruby on Rail and Python, Golang)
             </p>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button
@@ -393,23 +393,7 @@ export default function Portfolio() {
               </motion.div>
             ))}
           </div>
-          <div className="flex justify-center mt-8">
-            <Button
-              size="lg"
-              variant="outline"
-              asChild
-              className="flex items-center gap-2"
-            >
-              <a
-                href="https://github.com/Malshan20?tab=repositories"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Github className="w-5 h-5" />
-                More Works
-              </a>
-            </Button>
-          </div>
+
         </div>
       </section>
 
@@ -443,7 +427,7 @@ export default function Portfolio() {
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <Mail className="w-5 h-5 text-accent" />
-                  <span className="text-gray-700 dark:text-gray-300">malshandissanayaka246@gmail.com
+                  <span className="text-gray-700 dark:text-gray-300">michaeljkim06@outlook.com
 </span>
                 </div>
                 <div className="flex items-center gap-4">
@@ -453,7 +437,7 @@ export default function Portfolio() {
               </div>
 
               {/* ... existing social buttons ... */}
-              <div className="flex gap-4 pt-6">
+              {/* <div className="flex gap-4 pt-6">
                 <Button size="sm" variant="outline" asChild>
                   <a href="https://github.com/Malshan20" target="_blank" rel="noopener noreferrer">
                     <Github className="w-4 h-4 mr-2" />
@@ -475,7 +459,7 @@ export default function Portfolio() {
                   </a>
 
                 </Button>
-              </div>
+              </div> */}
             </motion.div>
 
             {/* ... existing contact form ... */}
@@ -528,7 +512,7 @@ export default function Portfolio() {
       <footer className="py-8 px-4 border-t border-border">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-600 dark:text-gray-400">
-            © {new Date().getFullYear()} David Lee. Built with Next.js, Tailwind CSS, and Framer Motion.
+            © {new Date().getFullYear()} Michael Kim. Built with Next.js, Tailwind CSS, and Framer Motion.
           </p>
         </div>
       </footer>
