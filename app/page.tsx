@@ -37,7 +37,8 @@ export default function Portfolio() {
 
   const skills = [
     { name: "React/Next.js", level: 95 },
-    { name: "Node.js", level: 90 },
+    { name: "TypeScript", level: 90 },
+    { name: "Ruby on Rails", level: 88 },
     { name: "React Native", level: 55 },
     { name: "Supabase", level: 88 },
     { name: "AI Integration", level: 92 },
@@ -253,6 +254,7 @@ export default function Portfolio() {
                   {[
                     "React",
                     "Next.js",
+                    "Ruby on Rails",
                     "Node.js",
                     "React Native",
                     "Supabase",
