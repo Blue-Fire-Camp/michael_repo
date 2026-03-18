@@ -66,15 +66,14 @@ export default function Portfolio() {
       image: "/2nd-brain.png",
     },
     {
-      title: "Travel~I",
+      title: "Tesla Rental App",
       description:
-        "Cross-platform web app for trip planning, bookings, and interactive UI/UX. Complete travel companion.",
+        "A full-stack app built in a team of 4. The user must register to use the app, he can reserve a car and see the details of a car. The admin can also add or remove cars.",
       icon: Plane,
-      badge: "sold",
-      flippa: "https://flippa.com/12103094",
-      technologies: ["React", "Next.js", "Maps API", "AI SDK", "Supabase"],
-      liveUrl: "https://travel-i.app",
-      image: "/travel-i.png",
+      badge: "Live",
+      technologies: ["React", "Redux", "Ruby", "Ruby on Rails"],
+      liveUrl: "https://tesla-car-rental-app.netlify.app/#/",
+      image: "https://dodoburner.github.io/Portfolio/images/tesla-rental.png",
     },
     {
       title: "StudyForge",
