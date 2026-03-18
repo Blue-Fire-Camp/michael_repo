@@ -42,7 +42,7 @@ export default function Portfolio() {
     { name: "React Native", level: 55 },
     { name: "Supabase", level: 88 },
     { name: "AI Integration", level: 92 },
-    { name: "GSAP/Framer Motion", level: 80 },
+    { name: "Python/Golang", level: 80 },
   ]
 
   const projects = [
@@ -133,7 +133,7 @@ export default function Portfolio() {
               Senior Software Engineer
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-8 font-light">
-              Full Stack Web & Mobile | AI & SaaS Specialist |  Backend (Ruby on Rail and Python, Golang)
+              Full Stack Web & Mobile | AI & SaaS |  Backend (Ruby on Rail and Python, Go)
             </p>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button

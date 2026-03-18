@@ -15,20 +15,18 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Full-Stack Developer | AI & SaaS Specialist",
-  description:
-    "Portfolio of a Full-Stack Web & Mobile Developer specializing in AI-focused SaaS applications. Showcasing projects: 2nd Brain, TravelI, and MooraI.",
-  keywords: ["Full-Stack Developer", "AI", "SaaS", "React", "Next.js", "Mobile Development"],
+  title: "Senior Software Engineer | Portfolio",
+  description: "Portfolio showcasing projects: Weather Forecast, 2nd Brain, Tesla Rental App, and more.",
+  keywords: ["Full-Stack Developer", "AI", "SaaS", "React", "Next.js", "Mobile Development", "Weather App", "Study App", "Tesla Rental"],
   authors: [{ name: "Full-Stack Developer" }],
   openGraph: {
-    title: "Full-Stack Developer | AI & SaaS Specialist",
-    description: "Portfolio showcasing AI-focused SaaS applications and mobile development projects.",
+    title: "Senior Software Engineer | Portfolio",
+    description: "Portfolio showcasing projects: Weather Forecast, 2nd Brain, Tesla Rental App, and more.",
     type: "website",
-    
-  },
   icons: {
     icon: "/logo/logo.png",
   },
+}
 }
 
 export default function RootLayout({
