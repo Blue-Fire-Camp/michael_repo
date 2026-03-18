@@ -70,7 +70,7 @@ export default function Portfolio() {
       title: "Tesla Rental App",
       description:
         "A full-stack app built in a team of 4. The user must register to use the app, he can reserve a car and see the details of a car. The admin can also add or remove cars.",
-      icon: Plane,
+      icon: Phone,
       badge: "Live",
       technologies: ["React", "Redux", "Ruby", "Ruby on Rails"],
       liveUrl: "https://tesla-car-rental-app.netlify.app/#/",
